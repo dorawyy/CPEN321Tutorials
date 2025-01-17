@@ -13,7 +13,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CPEN321AndroidTutorials"
+        android:theme="@style/Theme.CPEN321Tutorials"
         tools:targetApi="31">
 
         <!--
@@ -30,20 +30,10 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="${MAPS_API_KEY}" />
-
         <activity
             android:name=".MapsActivity"
             android:exported="false"
             android:label="@string/title_activity_maps" />
-        <activity
-            android:name=".SecondActivity"
-            android:exported="false"
-            android:theme="@style/Theme.CPEN321AndroidTutorials" />
-        <activity
-            android:name=".ComposeBasedActivity"
-            android:exported="false"
-            android:label="@string/title_activity_compose_based"
-            android:theme="@style/Theme.CPEN321AndroidTutorials" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

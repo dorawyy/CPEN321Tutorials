@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CPEN321AndroidTutorials"
+rootProject.name = "CPEN321Tutorials"
 include(":app")
  
